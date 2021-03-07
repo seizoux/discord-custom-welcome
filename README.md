@@ -1,10 +1,10 @@
 # Custom welcome message for discord.py (Cogs)
 
 - Requirments:
-*discord.py*
-*PostgreSQL*
-*A table named "welcome"*
-*Inside the table, colums named : "guild_id", "msg", "role_name", "role", "channel", "embed", "welc"*
+- *discord.py*
+- *PostgreSQL*
+- *A table named "welcome"*
+- *Inside the table, colums named : "guild_id", "msg", "role_name", "role", "channel", "embed", "welc"*
 
 # What you can make with this cog?
 - Customize the welcome message
