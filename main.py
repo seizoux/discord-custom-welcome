@@ -16,7 +16,7 @@ for filename in os.listdir("./cogs"):
 
 #CONNECT TO THE POSTGRESQL DATABASE
 async def create_db_pool():
-    client.pg_con = await asyncpg.create_pool(database="postgres", user="postgres", password="postgres")
+    client.pg_con = await asyncpg.create_pool(database="database", user="username", password="password")
 
 
 
